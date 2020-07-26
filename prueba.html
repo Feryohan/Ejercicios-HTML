@@ -1,0 +1,102 @@
+<!--Indica el tipo de HTML-->
+<!DOCTYPE HTML>
+<!--lenguaje de la página-->
+<html lang="es">
+	
+	<head>
+		<!--Nombre de la pestaña-->
+		<title>Mi primera WEB</title>
+	</head>
+
+	<body>
+		<!--Encabezado, solo puede haber un h1-->
+		<h1>Bienvenidos a mi pagina WEB</h1>
+
+		<h2>Texto de Prueba</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Vestibulum sed massa in nunc varius porta. Morbi nec ex sodales, convallis nibh eget, ultricies mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin placerat dapibus ex ac venenatis. Nunc aliquam nisi faucibus scelerisque aliquam. Cras ut leo rhoncus, accumsan lacus et, cursus turpis. Vestibulum feugiat odio ut nunc consectetur volutpat. <br/>Sed tristique, eros non egestas egestas, sem felis scelerisque ex, non accumsan lacus purus nec metus. Sed orci nisl, dictum nec euismod in, vehicula ac tortor. Vivamus ligula lacus, consequat nec ante ac, luctus accumsan lacus. Pellentesque augue lectus, blandit a venenatis in, faucibus eget leo. Praesent lacinia id enim ut faucibus. Vestibulum arcu arcu, varius non mi ut, 
+		<hr/>
+			ultricies tempor metus. In quam turpis, mollis in ante nec, lacinia vehicula sem. Maecenas ut pretium lectus, nec porttitor dolor.
+		</p>
+		
+		<hr/>
+		<h3>Otro texto</h3>
+		<p>
+			Curabitur tristique finibus lectus id convallis. Integer nulla lorem, viverra et luctus et, vulputate sit amet massa. Vivamus lobortis condimentum nibh. Ut at felis ac ipsum hendrerit feugiat id vitae urna. Mauris ullamcorper felis sit amet mattis aliquam. Aliquam scelerisque nibh ut mauris finibus faucibus. Praesent porttitor accumsan urna, in mattis velit dapibus quis. Praesent fermentum leo id nunc pharetra elementum.
+		</p>
+		<!--Realiza una cita-->
+		<blockquote>
+			uisque vitae odio nec risus dictum consectetur. Aenean vel turpis non mi eleifend auctor. Integer vitae nisi sit amet lorem pretium fringilla. Vestibulum alique
+		</blockquote>
+
+		<hr/>
+		<h2>Imagen de Perro</h2>
+		<img src ="imagenes/perro.jpg" alt="Imagen de un perro" title="Foto de perro" height="250px"/> 
+
+		<hr/>
+		<h2>Lista de Prueba</h2>
+		<ol>
+			<li>Perro</li>
+			<ul>
+				<li>Chihuahua</li>
+				<li>Pastor Alemán</li>
+				<li>Salchicha</li>
+			</ul>
+			<li>Gato</li>
+			<li>Pato</li>
+			<li>Pez</li>
+		</ol>
+
+		<hr/>
+		<h3>Tablas de Prueba</h3>
+		<table border="1">
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Pais</th>
+			</tr>
+
+			<tr>
+				<td>Johan</td>
+				<td>Romo</td>
+				<td>Mexico</td>
+			</tr>
+			<tr>
+				<td>Fernando</td>
+				<td>Eligio</td>
+				<td>Argentina</td>
+			</tr>
+		</table>
+
+		<hr/>
+		<h3>Formularios de prueba</h3>
+		<form>
+		<p>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" placeholder="Escribe tu nombre..." />
+		</p>
+
+		<p>
+			<label for="descripcion">Descripcion</label>
+			<textarea name="descripcion"></textarea>
+		</p>
+		
+		<input type="radio" name="genero" value="hombre">Hombre <br/>
+		<input type="radio" name="genero" value="mujer">Mujer <br/>
+		<input type="radio" name="genero" value="otro">Otro <br/>
+
+		<select name="generos">
+			<option value="hombre">Hombre</option>
+			<option value="mujer">Mujer</option>
+			<option value="otro">Otro</option>
+		</select>
+
+		<br/>
+		<input type="submit" value="Enviar formulario" />
+
+		</form>
+		<hr/>
+
+	</body>
+
+</html>
