@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Head es la sección de los metadatos, no se muestran en la página-->
+    <head>
+        <!--Permite el uso de tildes y caracteres del Español-->
+        <!--meta indica que es un metadato-->
+        <meta charset="utf-8" />
+        <title>Máster en CSS por Johan Romo</title>
+
+        <!--Sección de CSS-->
+        <!--Aquí se define el estilo para las etiquetas-->
+        
+        <!--
+        <style>
+            h1{
+                color:blue;
+                font-size: 60px;
+            }
+        </style>
+        -->
+
+        <!--Esta manera de usar CSS no es muy práctica-->
+        <!--Es mejor crear un fichero CSS separado del HTML-->
+
+        <!--link nos permite vincular la hoja de estilos CSS con HTML-->
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+    </head>
+
+    <body>
+        <h1>Máster en CSS por Johan Romo</h1>
+
+        <!--Lista sin numeración-->
+        <ul>
+            <!--href="#" crea un enlace vacío-->
+            <li><a href="#">Inicio</a></li>
+            <li>Temario</li>
+            <li>Reseñas</li>
+            <li>Contacto</li>
+        </ul>
+
+        <div id="descripcion">
+            <h2>Descripción del Curso</h2>
+            <p>
+                Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (incluyendo varios languages basados en XML como SVG, MathML o XHTML). CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
+            </p>
+            <p>
+                CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
+            </p>
+        </div>
+
+        <!--Pie de página-->
+        <!--&copy genera el logotipo de Copyright-->
+        <footer>
+            Todos los derechos reservados &copy; <a href="https://www.facebook.com/profile.php?id=100006216557023">Contacto de Facebook</a>
+
+        </footer>
+    </body>
+</html>
