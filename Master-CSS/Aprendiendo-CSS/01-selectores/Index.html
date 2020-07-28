@@ -28,31 +28,54 @@
     </head>
 
     <body>
-        <h1>Máster en CSS por Johan Romo</h1>
+        <!--El id es exclusivo para una sola etiqueta-->
+        <!--class se puede usar para nombrar por igual a dos o más etiquetas-->
+
+
+        <h1 id="titulo">Máster en CSS por Johan Romo</h1>
 
         <!--Lista sin numeración-->
-        <ul>
+        <ul id="menu">
             <!--href="#" crea un enlace vacío-->
             <li><a href="#">Inicio</a></li>
-            <li>Temario</li>
-            <li>Reseñas</li>
-            <li>Contacto</li>
+            <li>
+                <a href="#">Temario</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">LESS</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
 
         <div id="descripcion">
             <h2>Descripción del Curso</h2>
-            <p>
+            <p class="parrafo">
                 Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (incluyendo varios languages basados en XML como SVG, MathML o XHTML). CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
             </p>
-            <p>
+
+            <!--Podemos distinguir una clase de otra-->
+            <p class="parrafo parrafo2">
                 CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
             </p>
+        </div>
+
+        <div id="usuario">
+            <form>
+                <label>Nombre</label>
+                <input type="text" name="nombre" />
+                <label>Apellidos</label>
+                <input type="text" name="apellidos"/>
+                <input type="submit" value="Enviar"/>
+            </form>
         </div>
 
         <!--Pie de página-->
         <!--&copy genera el logotipo de Copyright-->
         <footer>
-            Todos los derechos reservados &copy; <a href="https://www.facebook.com/profile.php?id=100006216557023">Contacto de Facebook</a>
+            Todos los derechos reservados &copy; <a href="https://twitter.com/feryohan343" target="_blank">Contacto de Twitter</a>
 
         </footer>
     </body>

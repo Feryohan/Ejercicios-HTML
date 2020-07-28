@@ -1,0 +1,82 @@
+/*
+    ======= SELECTORES =======
+*/
+
+/*=========Selector Universal*/
+/*El diseño es aplicado a todas las etiquetas de HTML*/
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*=========Selector de Etiqueta*/
+/*El diseño se aplica a las etiquetas que deseamos*/
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    color:purple;
+    /*No se aplica ningún diseño al enlace*/
+    text-decoration: none;
+}
+
+footer a{
+    color:brown;
+}
+
+/*=========Selector de id*/
+/*Permite escoger las etiquetas por el id que nosotros les colocamos*/
+/*Podemos usar el mismo estilo para dos o más etiquetas con id, unicamente
+hay que poner una coma entre ellas y un # al inicio de cada id*/
+#descripcion,
+#titulo
+{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+/*=========Selector de clase*/
+.parrafo{
+    font-style: italic;
+    color: yellow;
+    background: black;
+}
+
+.parrafo2{
+    color: green;
+}
+
+/*=========Selector de atributo*/
+/*Se utiliza con mayor frecuencia para los formularios*/
+
+#usuario form{
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+/*Selector de atributo*/
+input[type="text"]{
+    margin-bottom: 15px;
+    padding:10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    padding: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*=========Selector de hijo*/
+#menu > li > a{
+    color: blue;
+}
+
+/*=========Prioridad*/
+/*!important se utiliza para destacar una instrucción sobre el resto de las demás*/
+
