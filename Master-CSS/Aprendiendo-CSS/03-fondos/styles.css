@@ -1,0 +1,35 @@
+/*Contiene a toda la página*/
+body{
+    /*Fondo con una sola imagen grande*/
+    background-image: url("img/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*La imagen de fondo se queda quieta*/
+    background-attachment: fixed;
+
+    /*Se crea una sangría en toda la página*/
+    text-indent: 30px;
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;    
+    color: rgb(150, 22, 22);
+
+    /*Posición del texto*/
+    text-align: center;
+
+    /*Tamaño de cada línea*/
+    line-height: 40px;
+
+    /*Fondo con patrón*/
+    background-image: url("img/fondo3.jpg");
+    /*automáticamente está activada la opción de repetir la imagen*/
+    /*background-repeat: repeat;*/
+}
+
+h2, h3{
+    background-color: white;
+    color: black;
+    border: 5px solid green;
+}

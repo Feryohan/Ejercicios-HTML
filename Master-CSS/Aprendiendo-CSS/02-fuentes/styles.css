@@ -1,0 +1,32 @@
+/*====== Agregar fuentes descargadas al programa*/
+@font-face{
+    /*Nombrar a la fuente*/
+    font-family: DSDigitalCustom;
+    /*Indicar donde se encuentra*/
+    src: url(Fuentes/DS_digital/DS-DIGI.TTF);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 45px;
+
+    /*======== Colores*/
+    /*Colores del sistema*/
+    /*color: red;*/
+
+    /*Colores hexadecimales*/
+    /*Colores RGB*/
+    /*Colores RGBA*/
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+
+p{
+    font-family: DSDigitalCustom;
+    font-size: 30px;
+}
